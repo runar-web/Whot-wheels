@@ -1,0 +1,26 @@
+<svg id="button-scroll-to-top.svg" xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #004cff;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M1305,663.9h23.51a11.241,11.241,0,0,1,11.25,11.25V698.66a11.241,11.241,0,0,1-11.25,11.251H1305a11.241,11.241,0,0,1-11.25-11.251V675.154A11.241,11.241,0,0,1,1305,663.9Z" transform="translate(-1293.75 -663.906)"/>
+  <g>
+    <path id="Union_2" data-name="Union 2" class="cls-2" d="M1316.26,690.357L1309.6,697l-2.05-2.045,8.71-8.709,8.71,8.709L1322.92,697Zm0-9.2-6.66,6.648-2.05-2.047,8.71-8.708,8.71,8.708-2.05,2.047Z" transform="translate(-1293.75 -663.906)"/>
+    <path id="Path_68" data-name="Path 68" class="cls-3" d="M1299.01,669.819h34.83v34.834h-34.83V669.819Z" transform="translate(-1293.75 -663.906)"/>
+  </g>
+</svg>

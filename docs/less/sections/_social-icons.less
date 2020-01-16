@@ -1,0 +1,31 @@
+.social {
+ display: flex;
+ -webkit-justify-content: flex-start;
+         justify-content: flex-start;
+ 
+ @media(min-width:992px){
+ 	-webkit-justify-content: space-between;
+ 	        justify-content: space-between;
+ }
+  
+}
+.social__item {
+	margin-right: 15px;
+	font-size: 24px;
+  width: 50px;
+  height: 50px;
+  background-color:#004cff;
+  border-radius:50%;
+  display: flex;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+  justify-content:center;
+  align-items:center;
+  cursor: pointer;
+  &:last-child{
+  	margin-right: 0;
+  }
+  @media(min-width:992px){
+  	margin-right: 0;
+  }
+}

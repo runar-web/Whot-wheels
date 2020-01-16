@@ -1,0 +1,48 @@
+.slider{
+	background-color: #F0DED2;
+	-webkit-background-size: cover;
+	     -o-background-size: cover; 
+	        background-size: cover;
+	    background-position: center center;
+
+	display: flex;
+	-webkit-align-items: center;
+	        align-items: center;
+	height: 454px;
+	@media(min-width:992px){
+		height: 870px;
+	}
+	.container{
+			-webkit-flex-grow:2;
+	        flex-grow:2;
+	}
+}
+// Контейнер для пагинации
+.header .owl-carousel .owl-dots{
+	position: absolute;
+	right: 115px;
+	top: 50%;
+	transform: translateY(-50%);
+	display: flex;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	
+}
+// Точка в пагинации
+.header .owl-carousel .owl-dots .owl-dot{
+	margin-bottom: 23px;
+	outline: none;
+}
+.header .owl-carousel .owl-dots .owl-dot span{
+	width: 20px;
+	height: 20px;
+	display: block;
+	border-radius:50%;
+	border:4.5px solid #404040;
+}
+// Активная точка в пагинации
+.header .owl-carousel .owl-dots .owl-dot.active span{
+	border-color: #004cff;
+	background-color: #fff;
+}
