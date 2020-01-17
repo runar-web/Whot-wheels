@@ -19,6 +19,17 @@
 }
 // Контейнер для пагинации
 .header .owl-carousel .owl-dots{
+  position: absolute;
+  bottom: 10%;
+  right: 50%;
+  transform: translateX(50%);
+  outline:none;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+	@media(min-width:768px){
+		outline:none;
 	position: absolute;
 	right: 115px;
 	top: 50%;
@@ -27,17 +38,29 @@
 	-webkit-flex-direction: column;
 	    -ms-flex-direction: column;
 	        flex-direction: column;
-	
+	height:8%;
+	}
 }
 // Точка в пагинации
 .header .owl-carousel .owl-dots .owl-dot{
-	margin-bottom: 23px;
+	margin-right: 23px;
 	outline: none;
+	&:last-child{
+		margin-right: 0;
+	}
+	@media(min-width:768px){
+		margin-bottom: 23px;
+		margin-right: 0;
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
 }
 .header .owl-carousel .owl-dots .owl-dot span{
 	width: 20px;
 	height: 20px;
 	display: block;
+	cursor:pointer;
 	border-radius:50%;
 	border:4.5px solid #404040;
 }
@@ -45,4 +68,5 @@
 .header .owl-carousel .owl-dots .owl-dot.active span{
 	border-color: #004cff;
 	background-color: #fff;
+	display: block;
 }
