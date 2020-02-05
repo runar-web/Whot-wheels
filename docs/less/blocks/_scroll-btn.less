@@ -1,7 +1,7 @@
 .scroll-to-top-btn{
 	display: none;
 	position: fixed;
-	right: 100px;
+	right: 15px;
 	bottom: 100px;
 	width: 46px;
 	height: 46px;
@@ -11,6 +11,9 @@
 	background: none;
 	border:none;
 	padding: 0;
+	@media(min-width:980px){
+		right: 100px;
+	}
 	
 	&:active, &:focus{
 		outline:none;

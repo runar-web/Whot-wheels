@@ -789,7 +789,7 @@ body {
 .scroll-to-top-btn {
   display: none;
   position: fixed;
-  right: 100px;
+  right: 15px;
   bottom: 100px;
   width: 46px;
   height: 46px;
@@ -798,6 +798,11 @@ body {
   background: none;
   border: none;
   padding: 0;
+}
+@media (min-width: 980px) {
+  .scroll-to-top-btn {
+    right: 100px;
+  }
 }
 .scroll-to-top-btn:active,
 .scroll-to-top-btn:focus {
@@ -1175,7 +1180,7 @@ body {
 .slider {
   background-color: #F0DED2;
   background-size: cover;
-  background-position: center center;
+  background-position: top;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
