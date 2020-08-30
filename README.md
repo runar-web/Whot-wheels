@@ -6,4 +6,4 @@
  - Галерея изображений fancybox
  - Owl carousel
  
- [онлайн демо](https://runar-web.github.io/Whot-wheels/)
+### [Online demo](https://runarnazmutdinov.github.io/Whot-wheels/)
